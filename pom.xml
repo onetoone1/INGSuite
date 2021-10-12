@@ -64,12 +64,15 @@
 			<version>2.9.2</version>
 		</dependency>
 	</dependencies>
-
-<distributionManagement>
-  <snapshotRepository>
-    <id>maven-test</id>
-    <url>http://54.197.166.193:8081/nexus/content/repositories/maven-test</url>
-  </snapshotRepository>
+	<distributionManagement>
+		<repository>
+			 <id>maven-test</id>
+                        <url>http://54.197.166.193:8081/nexus/content/repositories/maven-test</url>
+		</repository>
+		<snapshotRepository>
+			 <id>maven-test</id>
+                        <url>http://54.197.166.193:8081/nexus/content/repositories/maven-test</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<build>
