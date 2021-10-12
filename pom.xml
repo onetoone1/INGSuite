@@ -67,10 +67,12 @@
 	<distributionManagement>
 		<repository>
 			 <id>maven-test</id>
+			 <name>maven-tes</name>
                         <url>http://54.197.166.193:8081/nexus/content/repositories/maven-test</url>
 		</repository>
 		<snapshotRepository>
 			 <id>maven-test</id>
+			<name>maven-tes</name>
                         <url>http://54.197.166.193:8081/nexus/content/repositories/maven-test</url>
 		</snapshotRepository>
 	</distributionManagement>
