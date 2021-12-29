@@ -66,14 +66,14 @@
 	</dependencies>
 	<distributionManagement>
 		<repository>
-			 <id>maven-test</id>
-			 <name>maven-tes</name>
-                        <url>http://54.197.166.193:8081/nexus/content/repositories/maven-test</url>
+			 <id>nexus</id>
+			 <name>maven-test</name>
+                        <url>http://3.110.84.13:8081/repository/amazon</url>
 		</repository>
 		<snapshotRepository>
-			 <id>maven-test</id>
-			<name>maven-tes</name>
-                        <url>http://54.197.166.193:8081/nexus/content/repositories/maven-test</url>
+			 <id>nexus</id>
+			<name>maven-test</name>
+                        <url>http://3.110.84.13:8081/repository/amazon</url>
 		</snapshotRepository>
 	</distributionManagement>
 
